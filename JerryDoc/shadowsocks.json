@@ -1,0 +1,30 @@
+{
+    "configs":[
+        {
+            "server":"jp5.cdd3.com",
+            "server_port":"19507",
+            "password":"dF98sa",
+            "method":"aes-256-cfb",
+            "remarks":"\u65e5\u672c\u4e1c\u4eac\u9ad8\u901f\u7ebf\u8def\u4e94\u7ec4"
+        },
+        {
+            "server":"jp1.cdd3.com",
+            "server_port":"19507",
+            "password":"dF98sa",
+            "method":"aes-256-cfb",
+            "remarks":"\u65e5\u672c\u4e1c\u4eac\u9ad8\u901f\u7ebf\u8def\u4e00\u7ec4"
+        },
+        {
+            "server":"jp2.cdd3.com",
+            "server_port":"19507",
+            "password":"dF98sa",
+            "method":"aes-256-cfb",
+            "remarks":"\u65e5\u672c\u4e1c\u4eac\u9ad8\u901f\u7ebf\u8def\u4e8c\u7ec4"
+        }
+	]
+    "local_address":"127.0.0.1",
+    "local_port":1080,
+    "timeout":300,
+    "method":"aes-256-cfb",
+    "fast_open":false
+}

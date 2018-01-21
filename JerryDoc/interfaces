@@ -1,0 +1,30 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface for controller management network host-only 2#
+auto enp0s3
+iface enp0s3 inet static
+address 20.0.0.11
+netmask 255.255.255.0
+
+# The host-only 3#  for compute service
+auto enp0s8
+iface enp0s8 inet static
+address 203.0.113.11
+netmask 255.255.255.0
+
+# The host-only 4# for network service and use to access public
+auto enp0s9
+iface enp0s9 inet static
+address 192.168.100.11
+netmask 255.255.255.0
+
+# The NAT network for VM management
+auto enp0s10
+iface enp0s10 inet dhcp
