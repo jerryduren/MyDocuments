@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Servers>
+	<Putty>
+		<Node Type="1">
+			<SavedSession>mysetting</SavedSession>
+			<DisplayName>vmwar-exsi</DisplayName>
+			<ServerName>192.168.10.200</ServerName>
+			<PuttyConType>4</PuttyConType>
+			<Port>0</Port>
+			<UserName>root</UserName>
+			<Password>9hmbhfWVN7zv4slhza0Nqw==</Password>
+			<PasswordDelay>0</PasswordDelay>
+			<CLParams>-load mysetting 192.168.10.200 -ssh -l root -pw *****</CLParams>
+			<ScriptDelay>0</ScriptDelay>
+		</Node>
+		<Node Type="1">
+			<SavedSession>mysetting</SavedSession>
+			<DisplayName>master</DisplayName>
+			<ServerName>192.168.10.202</ServerName>
+			<PuttyConType>4</PuttyConType>
+			<Port>0</Port>
+			<UserName>root</UserName>
+			<Password>fSvYrl1+k23Tjj9bevLJig==</Password>
+			<PasswordDelay>0</PasswordDelay>
+			<CLParams>-load mysetting 192.168.10.202 -ssh -l root -pw *****</CLParams>
+			<ScriptDelay>0</ScriptDelay>
+		</Node>
+		<Node Type="1">
+			<SavedSession>mysetting</SavedSession>
+			<DisplayName>minion-one</DisplayName>
+			<ServerName>192.168.10.204</ServerName>
+			<PuttyConType>4</PuttyConType>
+			<Port>0</Port>
+			<UserName>root</UserName>
+			<Password>jWVefcvU8RwdP6O9mBBNzw==</Password>
+			<PasswordDelay>0</PasswordDelay>
+			<CLParams>-load mysetting 192.168.10.204 -ssh -l root -pw *****</CLParams>
+			<ScriptDelay>0</ScriptDelay>
+		</Node>
+		<Node Type="1">
+			<SavedSession>mysetting</SavedSession>
+			<DisplayName>minion-two</DisplayName>
+			<ServerName>192.168.10.206</ServerName>
+			<PuttyConType>4</PuttyConType>
+			<Port>0</Port>
+			<UserName>root</UserName>
+			<Password>Rkq+G6MfqLorNgFwDkRbQw==</Password>
+			<PasswordDelay>0</PasswordDelay>
+			<CLParams>-load mysetting 192.168.10.206 -ssh -l root -pw *****</CLParams>
+			<ScriptDelay>0</ScriptDelay>
+		</Node>
+		<Node Type="1">
+			<SavedSession>mysetting</SavedSession>
+			<DisplayName>controller</DisplayName>
+			<ServerName>192.168.10.212</ServerName>
+			<PuttyConType>4</PuttyConType>
+			<Port>0</Port>
+			<UserName>root</UserName>
+			<Password>tNmDpWew8Qoh23SE5D/t4g==</Password>
+			<PasswordDelay>0</PasswordDelay>
+			<CLParams>-load mysetting 192.168.10.212 -ssh -l root -pw *****</CLParams>
+			<ScriptDelay>0</ScriptDelay>
+		</Node>
+		<Node Type="1">
+			<SavedSession>mysetting</SavedSession>
+			<DisplayName>network</DisplayName>
+			<ServerName>192.168.10.214</ServerName>
+			<PuttyConType>4</PuttyConType>
+			<Port>0</Port>
+			<UserName>root</UserName>
+			<Password>Oex83pfCjGVImTW/6Rx58w==</Password>
+			<PasswordDelay>0</PasswordDelay>
+			<CLParams>-load mysetting 192.168.10.214 -ssh -l root -pw *****</CLParams>
+			<ScriptDelay>0</ScriptDelay>
+		</Node>
+		<Node Type="1">
+			<SavedSession>mysetting</SavedSession>
+			<DisplayName>computer</DisplayName>
+			<ServerName>192.168.10.216</ServerName>
+			<PuttyConType>4</PuttyConType>
+			<Port>0</Port>
+			<UserName>root</UserName>
+			<Password>TjZG7Y4AcReEz4lD85addg==</Password>
+			<PasswordDelay>0</PasswordDelay>
+			<CLParams>-load mysetting 192.168.10.216 -ssh -l root -pw *****</CLParams>
+			<ScriptDelay>0</ScriptDelay>
+		</Node>
+		<Node Type="1">
+			<SavedSession>mysetting</SavedSession>
+			<DisplayName>ubuntu</DisplayName>
+			<ServerName>192.168.10.218</ServerName>
+			<PuttyConType>4</PuttyConType>
+			<Port>0</Port>
+			<UserName>root</UserName>
+			<Password>3nHGsNyI6P/z4UpFymRkYA==</Password>
+			<PasswordDelay>0</PasswordDelay>
+			<CLParams>-load mysetting 192.168.10.218 -ssh -l root -pw *****</CLParams>
+			<ScriptDelay>0</ScriptDelay>
+		</Node>
+	</Putty>
+</Servers>
