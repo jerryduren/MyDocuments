@@ -21,6 +21,8 @@
 # ubuntu-150 is hostname
 127.0.0.1  ubuntu-150
 
+0.0.0.0 account.jetbrains.com
+
 20.0.0.11  controller
 20.0.0.41  object1
 20.0.0.51  object2
